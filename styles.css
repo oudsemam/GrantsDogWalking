@@ -38,7 +38,7 @@ nav ul li a {
     color:rgba(255, 255, 255, 0.8);
 }
 
-/* normal screen */
+/* computer screen */
  @media only screen and (min-width: 768px) {
      header {
          flex-direction: row;
@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 
-/* reversed nav and logo*/
+/* reversed nav and logo for large screens*/
 @media only screen and (min-width: 1200px) {
     header {
         display: flex;
