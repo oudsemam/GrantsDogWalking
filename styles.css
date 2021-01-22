@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #551A8B;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
+}
